@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Upupa_epops_-_04.jpg/320px-Upupa_epops_-_04.jpg" width="120" alt="Hud Hud Logo"/>
-</p>
 
 <h1 align="center">Hud Hud 🐦</h1>
 
@@ -53,5 +50,42 @@
 
 ---
 
-## 🧱 Project Structure
+🔒 Security Highlights
+
+    Passwords hashed with bcrypt
+
+    JWT for stateless authentication
+
+    Environment variables for API keys
+
+    Role-based authorization
+
+    Input validation & sanitization
+
+📸 Screenshots (Coming Soon)
+
+    Dashboard | Transfer | Admin Panel | Charts
+
+🛣 Roadmap
+
+User auth (login/signup)
+
+Transfer functionality
+
+Admin panel
+
+PDF transaction statements
+
+Spend analysis charts
+
+Notifications via email/SMS
+
+    OAuth login (Google)
+
+📄 License
+
+Licensed under the MIT License.
+🧑‍💻 Abash
+
+Made with ❤️ by Abash Ansari
 
