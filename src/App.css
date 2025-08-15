@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+.dashed-hr{
+  border:none;
+  border-top: 1px dashed #000;
+  margin: 1rem 0;
+}
