@@ -45,3 +45,28 @@
   border-top: 1px dashed #000;
   margin: 1rem 0;
 }
+.custom-heading {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #000; /* Black */
+  color: #fff; /* White text */
+  font-weight: bold;
+  transform: skew(-20deg); /* Parallelogram effect */
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  z-index: 1;
+}
+
+.custom-heading::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 100% solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 20px solid #000; /* Arrow color (same as background) */
+  transform: skewX(20deg);
+}
