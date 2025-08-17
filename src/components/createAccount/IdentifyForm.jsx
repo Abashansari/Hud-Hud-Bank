@@ -22,25 +22,12 @@ export default function IdentifyForm() {
 
       <div className="mb-3">
         <label htmlFor="phoneNumber" className="form-label">Phone Number</label>
-        <input
-          type="tel"
-          className="form-control"
-          id="phoneNumber"
-          placeholder="+91-9876543210"
-          required
-        />
+        <input type="tel" className="form-control" id="phoneNumber" placeholder="+91-9876543210" required />
       </div>
 
       <div className="mb-3">
         <label htmlFor="email" className="form-label">Email</label>
-        <input
-          type="email"
-          className="form-control"
-          id="email"
-          aria-describedby="emailHelp"
-          placeholder="example@email.com"
-          required
-        />
+        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="example@email.com" required />
         <div id="emailHelp" className="form-text text-muted">
           We'll never share your email with anyone else.
         </div>
@@ -48,13 +35,7 @@ export default function IdentifyForm() {
 
       <div className="mb-3">
         <label htmlFor="password" className="form-label">Password</label>
-        <input
-          type="password"
-          className="form-control"
-          id="password"
-          placeholder="Create a strong password"
-          required
-        />
+        <input type="password" className="form-control" id="password" placeholder="Create a strong password" required/>
       </div>
 
       <hr className="my-4" />
