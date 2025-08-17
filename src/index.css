@@ -66,3 +66,46 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Black & white clean theme for FundTransfer.jsx*/
+
+.fund-transfer-form {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.fund-transfer-form .form-label {
+  color: #000;
+  font-weight: 600;
+}
+
+.fund-transfer-form .form-control,
+.fund-transfer-form .form-select {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.fund-transfer-form .form-control:focus,
+.fund-transfer-form .form-select:focus {
+  border-color: #000;
+  box-shadow: none;
+  background-color: #fff;
+  color: #000;
+}
+
+.fund-transfer-form .form-text {
+  color: #555;
+}
+
+.fund-transfer-form .btn-dark {
+  background-color: #000;
+  border-color: #000;
+  font-weight: 600;
+}
+
+.fund-transfer-form .btn-dark:hover,
+.fund-transfer-form .btn-dark:focus {
+  background-color: #222;
+  border-color: #222;
+}
